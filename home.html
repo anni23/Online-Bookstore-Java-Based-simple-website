@@ -1,0 +1,189 @@
+
+<html>
+<head>
+<title>homepage</title>
+<style type="text/css"> 
+img.stack
+{
+position:absolute;
+height:550;
+width:450;
+left:100;
+top:130;
+}
+font.bookstore
+{
+color:white;
+position:absolute;
+left:50;
+font-size:70;
+top:30;
+font-family:Calibri;
+}
+form.register
+{
+position:absolute;
+right:95;
+top:150;
+}
+form.login
+{
+position:absolute;
+right:15;
+top:50;
+}
+div
+{
+background-color:rgb(0,85,114);
+height:60;
+}
+input.login
+{
+background-color:rgb(255,255,28);
+color:black;
+border-color:#6379ad;
+}
+input.signin
+{
+background-color:rgb(255,128,64);
+color:white;
+border-color:#6379ad;
+height:30;
+}
+img.free
+{
+position:absolute;
+height:150;
+width:250;
+top:520;
+right:120;
+}
+</style>
+</head>
+<body>
+<img src="home_files\stack.jpg" class="stack">
+<img src="home_files\frees.bmp" class="free">
+<div>
+<font class="bookstore">
+<b>
+BOOKSTORE
+</b>
+</font>
+<form method="post" action="http://localhost:8080/ANI/login" class="login">
+<font color="white" size="2" face="Calibri">
+Email id
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Password
+<br>
+<input type="text" name="lid">
+<input type="password" name="lpwd">
+<input class="login" type="submit" value="Log In">
+<br>
+<input type="checkbox">
+Keep me logged in
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Forgot your password?
+</font>
+</form>
+</div>
+<div>
+<form method="post" action="http://localhost:8080/ANI/register" class="register">
+<hr>
+<font size="5" color="#5050a0">
+Sign up
+</font>
+<font color="green" face="Calibri">
+<br>
+<br>
+Name :
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="text" name="nm">
+<br>
+<br>
+Phone No :
+&nbsp&nbsp&nbsp&nbsp
+<input type="text" name="phno">
+<br>
+<br>
+Login Id :
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="text" name="rid">
+<br><br>
+Password :
+&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="password" name="rpwd">
+<br><br>
+Date of birth :
+&nbsp
+date
+<select name="date">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>
+</select>
+month
+<select name="month">
+<option>jan</option>
+<option>feb</option>
+<option>mar</option>
+<option>april</option>
+<option>may</option>
+<option>june</option>
+<option>july</option>
+<option>aug</option>
+<option>sept</option>
+<option>oct</option>
+<option>nov</option>
+<option>dec</option>
+</select>
+year&nbsp
+<input type="text" name="year" size="4">
+<br><br>
+Sex :
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp
+<input type="radio" name="sex" value="male">male
+<input type="radio" name="sex" value="female">female
+<br><br>
+<input class="signin" type="submit" value="sign up">
+<hr>
+</form>
+</div>
+</body>
+</html>
+ 
+ 
+ 
+ 
+ 
+
+
